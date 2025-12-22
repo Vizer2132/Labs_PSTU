@@ -35,7 +35,7 @@ int main() {
 		xprev = x;
 		x = lambda * Func(xprev) + xprev; // вычисляем значение фи
 	}
-	cout << x; // 0.381381
+	cout << x; 
 
 	return 0;
 }
