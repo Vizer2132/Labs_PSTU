@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void show(int arr[100], int N) { // вывод массива
+void show(int arr[100], int N) {
 	for (int i = 0; i < N; i++) { 
 		cout << arr[i] << " ";
 	}
@@ -16,13 +16,13 @@ int main() {
 	int arr[100];
 
 
-	for (int i = 0; i < N; i++) { // инициализация
+	for (int i = 0; i < N; i++) 
 		arr[i] = ((float)rand() / RAND_MAX)*100;
 	}
 	show(arr, N);
 
 
-	if (N % 2 != 0) {
+	if (N%2 != 0) {
 		for (int i = N/2; i < N; i++) {
 			arr[i] = arr[i + 1]; 
 		}
@@ -31,7 +31,7 @@ int main() {
 	show(arr, N);
 
 
-	for (int i = N; i >= 0; i--) { // сдвиг на 3 элемента чтобы влезли 3 элемента вначале
+	for (int i = N; i >= 0; i--) {
 		arr[i + 3] = arr[i];
 	}
 	N += 3;
