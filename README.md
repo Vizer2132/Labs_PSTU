@@ -13,5 +13,6 @@
 
 | п/п | Наименование | Статус | Ссылка на папку со всем |
 | --- | --- | --- | --- |
-|  1  |  л/р №4 "работа с массивами" |  выполнено   |  [ссылка на папку](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/labs%204%20var%2014)  |
-|  2  |  л/р №5 "работа с матрицами" |  выполнено   |  [ссылка на папку](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/labs%205%20var%2014)  |
+|  1  |  л/р №4 "работа с массивами"     |  выполнено                |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/labs%204%20var%2014)  |
+|  2  |  л/р №5 "работа с матрицами"     |  выполнено без блок схем  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/labs%205%20var%2014)  |
+|  3  |  задачи на массивы и сортировки  |  выполнено без блок схем  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/labs%203_1-3_13)      | 
