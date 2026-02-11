@@ -13,4 +13,5 @@
 
 | п/п | Наименование | Статус | Ссылка на исходный код | Ссылка на схему |
 | --- | --- | --- | --- | --- |
-|  1  |  л/р №4 "работа с массивами" - вариант 14   |  выполнено   |  [ссылка](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/green_arrays_14_variant)  |     |
+|  1  |  л/р №4 "работа с массивами" |  выполнено   |  [ссылка на папку](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/labs%204%20var%2014)  |     |
+|  1  |  л/р №5 "работа с матрицами" |  выполнено   |  [ссылка на папку](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/labs%205%20var%2014)  |     |
