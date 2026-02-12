@@ -1,8 +1,5 @@
 #include <iostream>
-
 using namespace std;
-
-
 
 void show(int arr[100][100], int N) {
 	for (int i = 0; i < N; i++) {
@@ -12,10 +9,6 @@ void show(int arr[100][100], int N) {
 		cout << endl;
 	}
 	cout << endl;
-}
-
-void columnMultiplication(int arr[100][100]) {
-
 }
 
 
