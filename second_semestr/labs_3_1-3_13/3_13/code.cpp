@@ -17,7 +17,7 @@ int main() {
 
 	const int N = 4;
 	int arr[N][N];
-	int s = 0;
+	int s = 1;
 	int tmp;
 
 	for (int i = 0; i < N; i++) {
