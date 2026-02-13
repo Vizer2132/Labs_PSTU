@@ -14,8 +14,9 @@
 | п/п | Наименование | Статус | Ссылка на репозиторий проекта |
 | --- | --- | --- | --- |
 |  1  |  л/р №4 "работа с массивами"     |  выполнено                |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/labs_4_var%2014)  |
-|  2  |  л/р №5 "работа с матрицами"     |  выполнено без блок схем  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/labs_5_var%2014)  |
+|  2  |  л/р №5 "работа с матрицами"     |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/labs_5_var%2014)  |
 |  3  |  задачи на массивы и сортировки  |  выполнено                |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/labs_3_1-3_13)    | 
 |  4  |  ханойская башня                 |  выполнено                |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Hanoi_tower)      |
-|  5  |  восем ферзей                    |  не выполнено             |    |
-|  6  |  НОД                             |  не выполнено             |    |
+|  5  |  НОД                             |  выполнено                |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/NOD)  |
+|  6  |  восем ферзей                    |  не выполнено             |    |
+  
