@@ -19,6 +19,6 @@
 |  4  |  ханойская башня                 |  выполнено                |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Hanoi_tower)      |
 |  5  |  НОД                             |  выполнено                |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/NOD)              |
 |  6  |  восем ферзей                    |  выполнено                |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/eight_queen)      |
-|  7  |  л/р №3 ""                       |  не выполнено             |  |
-|  8  |  л/р №10 ""                      |                           |  |
+|  7  |  л/р №3 ""                       |  не выполнено             |  0  |
+|  8  |  л/р №10 ""                      |  не выполнено             |  0  |
 
