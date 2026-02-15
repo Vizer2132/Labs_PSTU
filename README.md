@@ -18,5 +18,7 @@
 |  3  |  задачи на массивы и сортировки  |  выполнено                |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/3_1-3_13)         | 
 |  4  |  ханойская башня                 |  выполнено                |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Hanoi_tower)      |
 |  5  |  НОД                             |  выполнено                |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/NOD)              |
-|  6  |  восем ферзей                    |  не выполнено             |    |
-  
+|  6  |  восем ферзей                    |  выполнено             |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/eight_queen)      |
+|  7  |  |  |  |
+|  8  |  |  |  |
+
