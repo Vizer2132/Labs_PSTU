@@ -4,6 +4,7 @@ using namespace std;
 const int N = 8;
 
 void vizualization(int arr[N][N]) {
+	
 	cout << "\t";
 	for (int i = 0; i < N; i++) {
 		cout << "  " << i << " ";
@@ -33,6 +34,7 @@ void vizualization(int arr[N][N]) {
 	}
 	cout << "-" << endl << endl << endl;
 }
+
 bool canSetQueen(int arr[N][N], int x, int y) {
 	for (int row = 0; row < y; row++) {
 		for (int col = 0; col < N; col++) {
@@ -64,6 +66,7 @@ void eightQueen(int arr[N][N], int row) {
 	}
 	if (row == 0) cout << "\ttotal boards: " << count << endl << endl << endl;
 }
+
 
 int main() {
 	int arr[N][N];
