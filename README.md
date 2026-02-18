@@ -22,5 +22,5 @@
 |  7  |  л/р №10 "динамические массивы"               |  выполнено     |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_10_var_14)   |
 |  8  |  л/р №7.1 "перегрузка функции"                |  выполнено     |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_7_1_var_14)  |
 |  9  |  л/р №7.2 "перегрузка функции"                |  не выполнено  |    |
-|  -  |  задачи на массивы и сортировки               |  выполнено     |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/3_1-3_13  | 
+|  -  |  задачи на массивы и сортировки               |  выполнено     |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/3_1-3_13)  | 
 
