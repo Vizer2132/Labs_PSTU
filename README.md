@@ -24,6 +24,6 @@
 |  9  |  л/р №7.2 "перегрузка функции"                |  выполнено        |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_7_2_var_14)  |
 |  10  |  л/р №6 "строки"                             |  выполнено        |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_6_var_14)  |
 |  11  |  л/р №8 "блоковый ввод/вывод и структуры"    |  выполнено        |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_8_var_14)  |
-|  12  |  л/р №11 "динамические структуры"            | выполнено без блок схемы |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_11_var_14)  |
+|  12  |  л/р №11 "динамические структуры"            | выполнен только односвязный список ито без блок схемы |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_11_var_14)  |
 |  -  |  задачи на массивы и сортировки               |  выполнено        |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/3_1-3_13)  | 
 
