@@ -19,7 +19,7 @@ void invertSort(int* arr, int size) {
 }
 
 // однонаправленный список
-struct UnidirectionalList { 
+struct UnidirectionalList {
 private:
 	struct Node {
 		string data;
@@ -40,14 +40,13 @@ public:
 			for (int i = 0; i < size; i++) {
 				cout << " " << i << ": \t" << node->data << endl;
 				node = node->nextElementAddress;
-
 			}
 		}
 		cout << endl;
 	}
 	string getData(int node_i) {
 		if (node_i < size) {
-			Node* node = firstElementAddress; 
+			Node* node = firstElementAddress;
 			for (int i = 0; i < node_i; i++) {
 				node = node->nextElementAddress;
 			}
@@ -79,13 +78,13 @@ public:
 		va_end(args);
 	}
 
-/////////////////// add ///////////////////
+	/////////////////// add ///////////////////
 	void add(string data, int node_i) {
 		if (node_i > size) {
 			cout << "номер больше размера списка, элемент будет добавлен в конец " << node_i << " > " << size << endl << endl;
 			node_i = size;
 		}
-		
+
 
 		if (node_i == 0) {
 			Node* newNode = new Node{ data, firstElementAddress };
@@ -106,18 +105,18 @@ public:
 			if (node_i == size) endElementAddress = newNode;
 		}
 		size++;
-		
+
 
 	}
 	void addInEnd(string data) {
 		add(data, size);
 	}
-	
-	void addKElements(int k, ...) { 
+
+	void addKElements(int k, ...) {
 		// addKElements(int k, "data1", index1, "data2", index2, ...)
 		//					   |____k = 1____|   |____k = 2____|	
 
-		va_list args; 
+		va_list args;
 		va_start(args, k);
 
 		const char* data; // string не работает
@@ -132,19 +131,19 @@ public:
 
 		va_end(args);
 	}
-///////////////////////////////////////////
+	///////////////////////////////////////////
 
 
-/////////////////// del ///////////////////
+	/////////////////// del ///////////////////
 	void del(int node_i) {
 		if (node_i >= size) {
 			cout << "номер больше размера списка, будет удален последний элемент " << node_i << " > " << size << endl << endl;
-			node_i = size-1;
+			node_i = size - 1;
 		}
 
 		Node* node = firstElementAddress;
 		Node* tmp;
-		for (int i = 0; i < node_i-1; i++) {
+		for (int i = 0; i < node_i - 1; i++) {
 			node = node->nextElementAddress;
 		}
 		tmp = node->nextElementAddress->nextElementAddress;
@@ -169,8 +168,8 @@ public:
 			arr[i] = va_arg(args, int);
 		}
 		invertSort(arr, k); // нужно удалять начиная с наибольшего
-						// индекса, чтобы сохранить индексацию
-		
+		// индекса, чтобы сохранить индексацию
+
 
 		for (int i = 0; i < k; i++) {
 			del(arr[i]);
@@ -179,9 +178,9 @@ public:
 		delete[] arr;
 		va_end(args);
 	}
-//////////////////////////////////////////
+	//////////////////////////////////////////
 
-////////////////// file //////////////////
+	////////////////// file //////////////////
 	void saveInFile(string name) {
 		ofstream file(name);
 
@@ -202,26 +201,18 @@ public:
 		}
 		file.close();
 		cout << " список загружен из файла: " << name << endl;
-	}	
+	}
 	void loadFromFileOverwriting(string name) {
 		deleteList();
 		loadFromFileAddInEnd(name);
 	}
-/////////////////////////////////////////
+	/////////////////////////////////////////
 
 	void deleteList() {
-		Node* node = firstElementAddress;
-
 		for (int i = 0; i < size; i++) {
-			firstElementAddress = node->nextElementAddress;
-			delete node;
-			node = firstElementAddress;
+			del(0);
 		}
-		firstElementAddress = nullptr;
-		endElementAddress = nullptr;
-
 		size = 0;
-
 		cout << " список удален" << endl;
 	}
 	~UnidirectionalList() {
@@ -236,14 +227,14 @@ int main() {
 	setlocale(LC_ALL, "ru");
 
 
-////////////////// 	1  //////////////////
+	////////////////// 	1  //////////////////
 	UnidirectionalList list(5,
 		"data0", 0,
 		"data1", 1,
 		"data2", 2,
 		"data3", 3,
 		"data4", 4
-	); 
+	);
 
 
 	cout << "\n //////////////////  2  //////////////////" << endl;
@@ -277,7 +268,7 @@ int main() {
 	list.deleteList();
 	list.print();
 
-	cout << " //////////////////  9  //////////////////" << endl;	
+	cout << " //////////////////  9  //////////////////" << endl;
 	list.loadFromFileOverwriting("myList.txt");
 	cout << "     list:" << endl;
 	list.print();
