@@ -19,7 +19,7 @@ void invertSort(int* arr, int size) {
 }
 
 // однонаправленный список
-struct UnidirectionalList {
+struct Stack {
 private:
 	struct Node {
 		string data;
@@ -38,78 +38,100 @@ public:
 		}
 		else {
 			for (int i = 0; i < size; i++) {
+				// cout << " " << i << ": \t" << node->data << "\t" << node << "\t" << node->nextElementAddress << endl;
 				cout << " " << i << ": \t" << node->data << endl;
 				node = node->nextElementAddress;
 			}
 		}
 		cout << endl;
 	}
-	string getData(int node_i) {
-		if (node_i < size) {
-			Node* node = firstElementAddress;
-			for (int i = 0; i < node_i; i++) {
-				node = node->nextElementAddress;
-			}
-			return node->data;
+
+	//////////////// commands ////////////////
+	void push(string data) {
+		Node* newNode = new Node{ data };
+		if (size == 0) {
+			endElementAddress = newNode;
+			firstElementAddress = newNode;
 		}
 		else {
-			cout << "элемента с номером " << node_i << " не существует, так как " << node_i << " >= " << size;
-			return "";
+			endElementAddress->nextElementAddress = newNode;
+			endElementAddress = newNode;
 		}
+		size++;
 	}
+	string pop() {
+		if (size == 0) return "";
 
-	UnidirectionalList() {};
-	UnidirectionalList(int k, ...) {
-		// тоже самое что и addKElements()
+		string data = endElementAddress->data;
 
-		va_list args;
-		va_start(args, k);
-
-		const char* data; // string не работает
-		int index;
-
-		for (int i = 0; i < k; i++) {
-			data = va_arg(args, const char*);
-			index = va_arg(args, int);
-
-			add(data, index);
+		if (size == 1) {
+			delete firstElementAddress;
+			firstElementAddress = nullptr;
+			endElementAddress = nullptr;
+		}
+		else {
+			Node* node = firstElementAddress;
+			// Находим предпоследний элемент
+			for (int i = 0; i < size - 2; i++) {
+				node = node->nextElementAddress;
+			}
+			delete endElementAddress;
+			endElementAddress = node;
+			endElementAddress->nextElementAddress = nullptr;
 		}
 
-		va_end(args);
+		size--;
+		return data;
 	}
+	//////////////////////////////////////////
 
-	/////////////////// add ///////////////////
 	void add(string data, int node_i) {
-		if (node_i > size) {
-			cout << "номер больше размера списка, элемент будет добавлен в конец " << node_i << " > " << size << endl << endl;
+		if (node_i == size) {
+			push(data);
+			return;
+		}
+		else if (node_i > size) {
+			cout << endl << "номер добавляемого элемента больше чем размер стека, элемент буде добавлен в конец  " << node_i << " > " << size << endl;
 			node_i = size;
 		}
 
 
-		if (node_i == 0) {
-			Node* newNode = new Node{ data, firstElementAddress };
-			firstElementAddress = newNode;
+		int arrSize = size - node_i;
+		string* arr = new string[arrSize];
 
-			if (node_i == size) endElementAddress = newNode;
+		for (int i = 0; i < arrSize; i++) {
+			arr[i] = pop();
 		}
-		else {
-			Node* node = firstElementAddress;
 
-			for (int i = 0; i < node_i - 1; i++) {
-				node = node->nextElementAddress;
-			}
+		push(data);
 
-			Node* newNode = new Node{ data, node->nextElementAddress };
-			node->nextElementAddress = newNode;
-
-			if (node_i == size) endElementAddress = newNode;
+		for (int i = 0; i < arrSize; i++) {
+			push(arr[arrSize - i - 1]);
 		}
-		size++;
 
-
+		delete[] arr;
 	}
-	void addInEnd(string data) {
-		add(data, size);
+	void del(int node_i) {
+		if (node_i > size) {
+			cout << endl << "номер удаляемого элемента больше чем размер стека, будет удален последний элемент  " << node_i << " > " << size << endl;
+			node_i = size - 1;
+		}
+
+
+		int arrSize = size - node_i - 1;
+		string* arr = new string[arrSize];
+
+		for (int i = 0; i < arrSize; i++) {
+			arr[i] = pop();
+		}
+
+		pop();
+
+		for (int i = 0; i < arrSize; i++) {
+			push(arr[arrSize - i - 1]);
+		}
+
+		delete[] arr;
 	}
 
 	void addKElements(int k, ...) {
@@ -131,32 +153,6 @@ public:
 
 		va_end(args);
 	}
-	///////////////////////////////////////////
-
-
-	/////////////////// del ///////////////////
-	void del(int node_i) {
-		if (node_i >= size) {
-			cout << "номер больше размера списка, будет удален последний элемент " << node_i << " > " << size << endl << endl;
-			node_i = size - 1;
-		}
-
-		Node* node = firstElementAddress;
-		Node* tmp;
-		for (int i = 0; i < node_i - 1; i++) {
-			node = node->nextElementAddress;
-		}
-		tmp = node->nextElementAddress->nextElementAddress;
-		delete node->nextElementAddress;
-
-		node->nextElementAddress = tmp;
-
-		size--;
-	}
-	void delEndElement() {
-		del(size);
-	}
-
 	void delKElements(int k, ...) {
 		va_list args;
 		va_start(args, k);
@@ -170,7 +166,6 @@ public:
 		invertSort(arr, k); // нужно удалять начиная с наибольшего
 		// индекса, чтобы сохранить индексацию
 
-
 		for (int i = 0; i < k; i++) {
 			del(arr[i]);
 		}
@@ -178,7 +173,27 @@ public:
 		delete[] arr;
 		va_end(args);
 	}
-	//////////////////////////////////////////
+
+	Stack() {}
+	Stack(int k, ...) {
+		// тоже самое что и addKElements()
+
+		va_list args;
+		va_start(args, k);
+
+		const char* data; // string не работает
+		int index;
+
+		for (int i = 0; i < k; i++) {
+			data = va_arg(args, const char*);
+			index = va_arg(args, int);
+
+			add(data, index);
+		}
+
+		va_end(args);
+
+	}
 
 	////////////////// file //////////////////
 	void saveInFile(string name) {
@@ -197,28 +212,29 @@ public:
 		ifstream file(name);
 		string str = " ";
 		while (getline(file, str)) {
-			addInEnd(str);
+			push(str);
 		}
 		file.close();
 		cout << " список загружен из файла: " << name << endl;
 	}
 	void loadFromFileOverwriting(string name) {
-		deleteList();
+		deleteStack();
 		loadFromFileAddInEnd(name);
 	}
 	/////////////////////////////////////////
 
-	void deleteList() {
+	void deleteStack() {
 		for (int i = 0; i < size; i++) {
-			del(0);
+			pop();
 		}
 		size = 0;
 		cout << " список удален" << endl;
 	}
-	~UnidirectionalList() {
-		if (size > 0) deleteList();
+	~Stack() {
+		if (size > 0) deleteStack();
 	}
 };
+
 
 int main() {
 	SetConsoleCP(1251);
@@ -227,8 +243,11 @@ int main() {
 	setlocale(LC_ALL, "ru");
 
 
+
+
+
 	////////////////// 	1  //////////////////
-	UnidirectionalList list(5,
+	Stack stack(5,
 		"data0", 0,
 		"data1", 1,
 		"data2", 2,
@@ -239,42 +258,42 @@ int main() {
 
 	cout << "\n //////////////////  2  //////////////////" << endl;
 
-	UnidirectionalList emptyList;
-	cout << "  emptyList:" << endl;
+	Stack emptyList;
+	cout << "  emptyStack:" << endl;
 	emptyList.print();
 
-	cout << "     list:" << endl;
-	list.print();
+	cout << "    stack:" << endl;
+	stack.print();
 
-	emptyList.deleteList(); // лист удаляется автоматически, и без этого
+	emptyList.deleteStack(); // лист удаляется автоматически, и без этого
 
 
-	cout << " //////////////////  3  //////////////////" << endl;
+	cout << "\n //////////////////  3  //////////////////" << endl;
 	cout << " добавление элементов на позиции 2, 6, 4" << endl;
-	list.addKElements(3,
+	stack.addKElements(3,
 		"newData1", 2,
 		"newData2", 6,
 		"newData3", 4
 	);
-	list.print();
+	stack.print();
 
 	cout << " удаление элементов на позициях 3, 1, 5" << endl;
-	list.delKElements(3, 3, 1, 5);
-	list.print();
+	stack.delKElements(3, 3, 1, 5);
+	stack.print();
 
 	cout << " //////////////////  7  //////////////////" << endl;
-	list.saveInFile("myList.txt");
-	cout << "     list:" << endl;
-	list.deleteList();
-	list.print();
+	stack.saveInFile("myStack.txt");
+	cout << "     stack:" << endl;
+	stack.deleteStack();
+	stack.print();
 
 	cout << " //////////////////  9  //////////////////" << endl;
-	list.loadFromFileOverwriting("myList.txt");
-	cout << "     list:" << endl;
-	list.print();
+	stack.loadFromFileOverwriting("myStack.txt");
+	cout << "     stack:" << endl;
+	stack.print();
 
 
 	cout << " ////////////////// 1 0 //////////////////" << endl;
-	list.deleteList();
+	stack.deleteStack();
 
 }
