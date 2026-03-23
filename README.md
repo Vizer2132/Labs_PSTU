@@ -14,17 +14,19 @@
 ### Зеленая методичка
 | п/п | Наименование | Статус | Ссылка на репозиторий проекта |
 | --- | --- | --- | --- |
-|  1  |  л/р №4 "работа с массивами"                  |  выполнено           |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_4_var_14)    |
-|  2  |  л/р №5 "работа с матрицами"                  |  выполнено           |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_5_var_14)    |
-|  3  |  л/р №3 "рекурсии", "числа фибоначчи", "НОД"  |  выполнено           |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_3_var)       |
-|  4  |  ханойская башня                              |  выполнено           |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/Hanoi_tower)     |
-|  5  |  восем ферзей                                 |  выполнено           |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/eight_queen)     |
-|  6  |  сортировки                                   |  выполнено           |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/sort)            |
-|  7  |  л/р №10 "динамические массивы"               |  выполнено           |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_10_var_14)   |
-|  8  |  л/р №7.1 "перегрузка функции"                |  выполнено           |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_7_1_var_14)  |
-|  9  |  л/р №7.2 "перегрузка функции"                |  выполнено           |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_7_2_var_14)  |
-|  10 |  л/р №6 "строки"                              |  выполнено           |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_6_var_14)    |
-|  11 |  л/р №8 "блоковый ввод/вывод и структуры"     |  выполнено           |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_8_var_14)    |
-|  12 |  л/р №11 "динамические структуры"             |  выполнено           |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_11_var_14)   |
-|  -  |  задачи на массивы и простые сортировки       |  выполнено           |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/3_1-3_13)             | 
+|  1  |  л/р №4 "работа с массивами"                  |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_4_var_14)    |
+|  2  |  л/р №5 "работа с матрицами"                  |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_5_var_14)    |
+|  3  |  л/р №3 "рекурсии", "числа фибоначчи", "НОД"  |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_3_var)       |
+|  4  |  ханойская башня                              |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/Hanoi_tower)     |
+|  5  |  восем ферзей                                 |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/eight_queen)     |
+|  6  |  сортировки                                   |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/sort)            |
+|  7  |  л/р №10 "динамические массивы"               |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_10_var_14)   |
+|  8  |  л/р №7.1 "перегрузка функции"                |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_7_1_var_14)  |
+|  9  |  л/р №7.2 "перегрузка функции"                |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_7_2_var_14)  |
+|  10 |  л/р №6 "строки"                              |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_6_var_14)    |
+|  11 |  л/р №8 "блоковый ввод/вывод и структуры"     |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_8_var_14)    |
+|  12 |  л/р №11 "динамические структуры"             |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_11_var_14)   |
+| 13  |  л/р №?? | поиск подстроки в строке (три)     |  только код |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/searching_substring_in_string) |
+|  -  |  задачи на массивы и простые сортировки       |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/3_1-3_13)             |
+|  -  |  простые сортировки                           |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/ease_sort)       |
 
