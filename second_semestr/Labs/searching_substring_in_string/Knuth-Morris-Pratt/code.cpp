@@ -83,24 +83,24 @@ int KMPSearch(string str, string substr) {
 		tsh[i].letter = substr[i];
 		// cout << idx << " " << substr[i] << endl << endl;
 	}
-	cout << " таблица сдвигов" << endl << "  ";
-	for (int i = 0; i < size; i++) { cout  << tsh[i].shift << " "; }
-	cout << endl;
+	// cout << " таблица сдвигов" << endl << "  ";
+	// for (int i = 0; i < size; i++) { cout  << tsh[i].shift << " "; }
+	// cout << endl;
 
 	bool f;
 	for (int i = 0; i < size; i++) {
 		f = 1;
-		cout << str << endl;
-		for (int i = 0; i < idx; i++) cout << "_";
+		// cout << str << endl;
+		// for (int i = 0; i < idx; i++) cout << "_";
 
 		for (int j = 0; j < size; j++) {
-			cout << substr[j];
+			// cout << substr[j];
 
 			if (substr[j] != str[j+idx]) {
 				f = 0;
 				if (j > 0) idx += abs(tsh[j-1].shift - j);
 				else idx++;
-				cout << " - !   " << substr[j] << " != " << str[j + idx] << " idx = " << idx << endl << endl;
+				// cout << " - !   " << substr[j] << " != " << str[j + idx] << " idx = " << idx << endl << endl;
 				break;
 			}
 		}
@@ -129,5 +129,5 @@ int main() {
 	//	cout << endl;
 	//}
 
-	cout << " " << KMPSearch(str, "abcabcd");
+	cout << " " << KMPSearch(str, substr);
 }
