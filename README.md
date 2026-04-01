@@ -27,7 +27,7 @@
 |  11 |  л/р №9 "работа с файлами"                    |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_9_var_14)    |
 |  12 |  л/р №8 "блоковый ввод/вывод и структуры"     |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_8_var_14)    |
 |  13-16 |  л/р №11 "динамические структуры"          |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_11_var_14)   |
-|  17 |  л/р №?? "наивный поиск подстроки" (три)      | не выполнено|   |
+|  17 |  л/р №?? "наивный поиск подстроки" (три)      | невыполнено |   |
 |  18 |  л/р №?? "поиск подстроки в строке" (три)     |  только код |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/searching_substring_in_string) |
 |  -  |  задачи на массивы                            |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/3_1-3_13)             |
 
