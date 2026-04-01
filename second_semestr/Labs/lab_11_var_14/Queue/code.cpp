@@ -18,7 +18,7 @@ void invertSort(int* arr, int size) {
 	}
 }
 
-// однонаправленный список
+// Очередь
 struct Queue {
 private:
 	struct Node {

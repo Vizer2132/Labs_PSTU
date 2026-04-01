@@ -18,7 +18,7 @@ void invertSort(int* arr, int size) {
 	}
 }
 
-// однонаправленный список
+// Стек
 struct Stack {
 private:
 	struct Node {
