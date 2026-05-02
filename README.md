@@ -31,16 +31,20 @@
 |  18 |   "поиск подстроки в строке сложные и наивный" | только код  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/searching_substring_in_string) |
 |  -  |  задачи на массивы                             |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/3_1-3_13)             |
 |  19 |  быстрые сортировки Ломуто слиянием блочная подсчетом |     |  [ссылка на репозиторий](  |
-|  20 |  сортировки бистрая и хоара                    |    |  [ссылка на репозиторий](  |
-|  21 |  многофазная и естественная сортировки         |    |  [ссылка на репозиторий](  |
+|  20 |  сортировки быстрая и хоара                    |    |  [ссылка на репозиторий](  |
+|  21 |  многофазная и естественная сортировки         |    |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/External_sorting)  |
 |  22 |  хэш таблицы                                   |    |  [ссылка на репозиторий](  |
 
 
 ### Классы
+#### Они все без UML-диаграмм
 | п/п | Наименование | Статус | Ссылка на репозиторий проекта |
 | --- | --- | --- | --- |
 | 23 | классы 1 | выполнено    | [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/class/1) |
 | 24 | классы 2 | выполнено    | [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/class/2) |
 | 25 | классы 3 | выполнено    | [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/class/3) |
-| 26 | классы 4 | не выполнено | [ссылка на репозиторий]( |
+| 26 | классы 4 | выполнено    | [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/class/4) |
+| 27 | классы 5 | выполнено    | [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/class/5) |
+| 28 | классы 6 | выполнено    | [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/class/6) |
+| 29 | классы 7 | выполнено    | [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/class/7) |
 
