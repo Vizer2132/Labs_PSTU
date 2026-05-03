@@ -30,10 +30,10 @@
 |  13-16 |  л/р №11 "динамические структуры"           |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_11_var_14)   |
 |  17 |   "линейный интерполяционный бинарный поиск подстроки" | выполнено |   |
 |  18 |   "поиск подстроки в строке сложные и наивный" | только код  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/searching_substring_in_string) |
-|  19 |  быстрые сортировки Ломуто слиянием блочная подсчетом |     |  [ссылка на репозиторий](  |
-|  20 |  сортировки быстрая и хоара                    |    |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/hard_sort)  |
-|  21 |  многофазная и естественная сортировки         | без блок-схем   |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/External_sorting)  |
-|  22 |  хэш таблицы                                   |    |  [ссылка на репозиторий](  |
+|  19 |  быстрые сортировки Ломуто слиянием блочная подсчетом |ломуто|  [ссылка на репозиторий](  |
+|  20 |  сортировки быстрая и хоара                    |без блок схем|  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/hard_sort)  |
+|  21 |  многофазная и естественная сортировки         | выполнено   |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/External_sorting)  |
+|  22 |  хэш таблицы                                   | не выполнено|  [ссылка на репозиторий](  |
 
 
 ### Классы
