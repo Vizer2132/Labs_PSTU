@@ -121,13 +121,6 @@ int main() {
 	
 	string str = "abcabceabcabcd";
 	string substr = "abcabcd";
-	//cout << str << endl;
-	//for (int i = 0; i < substr.size(); i++) {
-	//	for (int j = 1; j < i+1; j++) {
-	//		cout << createPrefix(substr, j) << " " << createSuffix(substr, j, i) << "   ";
-	//	}
-	//	cout << endl;
-	//}
 
 	cout << " " << KMPSearch(str, substr);
 }

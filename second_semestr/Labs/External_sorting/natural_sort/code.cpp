@@ -104,7 +104,8 @@ int main() {
         A << elem << ' ';
     }
 
-    int iterations = 1, segments = -1;
+    int iterations = 1;
+    int segments = -1;
     while (segments != 1) {
         segments = splitFile(A, B, C, iterations);
         if (segments != 1) {
