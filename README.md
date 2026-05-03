@@ -28,9 +28,9 @@
 |  11 |  л/р №9 "работа с файлами"                     |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_9_var_14)    |
 |  12 |  л/р №8 "блоковый ввод/вывод и структуры"      |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_8_var_14)    |
 |  13-16 |  л/р №11 "динамические структуры"           |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_11_var_14)   |
-|  17 |   "линейный интерполяционный бинарный поиск подстроки" | выполнено |   |
-|  18 |   "поиск подстроки в строке сложные и наивный" | только код  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/searching_substring_in_string) |
-|  19 |  быстрые сортировки Ломуто слиянием блочная подсчетом |ломуто|  [ссылка на репозиторий](  |
+|  17 |   "линейный интерполяционный бинарный поиск подстроки" | выполнено | [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/searching_substring_in_string/lin-inter-binar)  |
+|  18 |   "поиск подстроки в строке сложные и наивный" | выполнено   |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/searching_substring_in_string) |
+|  19 |  быстрые сортировки Ломуто слиянием блочная подсчетом |ломуто|  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/hard_sort)  |
 |  20 |  сортировки быстрая и хоара                    |без блок схем|  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/hard_sort)  |
 |  21 |  многофазная и естественная сортировки         | выполнено   |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/External_sorting)  |
 |  22 |  хэш таблицы                                   | не выполнено|  [ссылка на репозиторий](  |
@@ -45,5 +45,5 @@
 | 26 | классы 4 | выполнено    | [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/class/4) |
 | 27 | классы 5 | выполнено    | [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/class/5) |
 | 28 | классы 6 | выполнено    | [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/class/6) |
-| 29 | классы 7 | выполнено    | [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/class/7) |
+| 29 | классы 7 | выполнено без UML | [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/class/7) |
 
