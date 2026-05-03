@@ -14,6 +14,7 @@
 ### Зеленая методичка
 | п/п | Наименование | Статус | Ссылка на репозиторий проекта |
 | --- | --- | --- | --- |
+|  -  |  задачи на массивы                             |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/3_1-3_13)             |
 |  1  |  л/р №4 "работа с массивами"                   |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_4_var_14)    |
 |  2  |  л/р №5 "работа с матрицами"                   |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_5_var_14)    |
 |  3  |  л/р №3 "рекурсии", "числа фибоначчи", "НОД"   |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_3_var)       |
@@ -29,7 +30,6 @@
 |  13-16 |  л/р №11 "динамические структуры"           |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/lab_11_var_14)   |
 |  17 |   "линейный интерполяционный бинарный поиск подстроки" | невыполнено |   |
 |  18 |   "поиск подстроки в строке сложные и наивный" | только код  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/searching_substring_in_string) |
-|  -  |  задачи на массивы                             |  выполнено  |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/3_1-3_13)             |
 |  19 |  быстрые сортировки Ломуто слиянием блочная подсчетом |     |  [ссылка на репозиторий](  |
 |  20 |  сортировки быстрая и хоара                    |    |  [ссылка на репозиторий](  |
 |  21 |  многофазная и естественная сортировки         | без блок-схем   |  [ссылка на репозиторий](https://github.com/Vizer2132/Labs_PSTU/tree/main/second_semestr/Labs/External_sorting)  |
